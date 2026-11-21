@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AIGC label",
+    "description": "Writes and checks the AIGC implicit label in docx/xlsx/pptx: a named property in docProps/custom.xml carrying Label, ContentProducer and ProduceID. Reports what it can and cannot verify, and refuses to invent a producer code."
+  }
+}

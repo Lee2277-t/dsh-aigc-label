@@ -1,0 +1,4 @@
+node_modules/
+_testdata/
+test-local.mjs
+_t.log

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AIGC 隐式标识",
+    "description": "给 docx/xlsx/pptx 写入与查验 AIGC 隐式标识：docProps/custom.xml 里一条名为 AIGC 的自定义属性，含 Label、ContentProducer、ProduceID。会说明哪些能验、哪些验不了，并拒绝凭空编一个服务提供者编码。"
+  }
+}

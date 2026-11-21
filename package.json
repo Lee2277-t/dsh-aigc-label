@@ -1,0 +1,16 @@
+{
+  "name": "dsh-aigc-label",
+  "version": "1.0.0",
+  "description": "Write and check the AIGC implicit label required for AI-generated content in Office files (docx/xlsx/pptx), following the docProps/custom.xml AIGC property used by GB 45438-2025.",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "dependencies": { "@deepseek-ai/schemastery": "^3.18.1" },
+  "peerDependencies": { "@deepseek-ai/dsh-tools": ">=0.1.0-rc.7" },
+  "peerDependenciesMeta": { "@deepseek-ai/dsh-tools": { "optional": true } },
+  "keywords": ["dsh-plugin", "aigc", "label", "compliance", "ooxml", "gb45438"],
+  "license": "AGPL-3.0-only",
+  "repository": { "type": "git", "url": "git+https://github.com/Lee2277-t/dsh-aigc-label.git" }
+}

@@ -1,0 +1,14 @@
+# dsh-aigc-label bundle patch: mounts the plugin into the host profile.
+#
+# contentProducer is intentionally left unset. It is the 27-character code from your
+# filing, not a constant: a plugin that ships someone else's code would label your
+# files as originating from them. Set it here, or pass `producer` per call.
+- insert:
+    - id: aigc-label
+      name: 'dsh-aigc-label'
+      config:
+        label: '1'
+        extensions:
+          - .docx
+          - .xlsx
+          - .pptx
